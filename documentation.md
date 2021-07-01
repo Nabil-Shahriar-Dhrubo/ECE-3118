@@ -20,3 +20,9 @@ We can check your current version of Git by running the following command in Git
 ```
 git --version
 ````
+# **3. Git Initialization**
+
+To create a blank repository, open command line on your desired directory and run the init command as follows:
+```
+git init
+````
