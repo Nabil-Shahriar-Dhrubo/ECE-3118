@@ -12,3 +12,11 @@ The Git config command is the first and necessary command used on the Git comman
 git config --global user.name "Nusrat-Jahan-ECE"  
 git config --global user.email "1710011@student.ruet.ac.bd"
 ````
+# **2. To Check Git Version:**
+
+We can check your current version of Git by running the following command in Git Bash, terminal (Linux, macOS) or command prompt (Windows).
+
+**Syntax:**
+```
+git --version
+````
