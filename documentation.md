@@ -210,3 +210,30 @@ Git push origin master
 ```   
 Git pull origin master
 ```
+# **14. Git Branch Command**
+
+![Git branch](https://res.cloudinary.com/practicaldev/image/fetch/s--Jc-acrrl--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/69payngupg75rqgabwdg.png)
+
+
+Branches are highly important in the git world. By using branches, several developers are able to work in parallel on the same project simultaneously. We can use the git branch command for creating, listing and deleting branches.
+
+**Syntax:**
+
+**i. Creating a new branch:**
+```
+git branch <branch-name> 
+````
+This command will create a branch locally. To push the new branch into the remote repository, you need to use the following command:
+
+```
+git push -u <remote> <branch-name>
+```
+**ii. Viewing branches:**
+```
+git branch or git branch --list
+```
+
+**iii. Deleting a branch:**
+```
+git branch -d <branch-name>
+```
