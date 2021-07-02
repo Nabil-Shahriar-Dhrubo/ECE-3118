@@ -112,3 +112,33 @@ Pull command is used to receive data from GitHub. It fetches and merges changes 
 ```
 git pull <URL>  
 ````
+# **10. Git Fetch:**
+
+
+![Git fetch](https://static.javatpoint.com/tutorial/git/images/git-fetch.png)
+
+
+The "git fetch" command is used to pull the updates from remote-tracking branches. Additionally, we can get the updates that have been pushed to our remote branches to our local machines. As we know, a branch is a variation of our repositories main code, so the remote-tracking branches are branches that have been set up to pull and push from remote repository. 
+
+**Syntax:**
+
+
+**i. To fetch the remote repository:**
+```
+git fetch< repository Url> 
+````
+
+**ii. To fetch a specific branch:**
+```
+git fetch <branch URL><branch name>  
+```
+
+**iii. To fetch all the branches simultaneously:**
+```
+git fetch -all  
+```
+
+**iv. To synchronize the local repository:**
+```
+git fetch origin  
+```
