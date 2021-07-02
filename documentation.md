@@ -322,3 +322,17 @@ The git stash branch command allows the user to stash work on a separate branch 
 ```
 git stash branch <Branch Name>  
 ```
+
+# **17. Git Revert Command**
+
+
+![Git revert](https://64.media.tumblr.com/cde0683673e8d27c3db284e4c7965e08/tumblr_inline_mwzr3bz8fW1rk7mw6.png)
+
+Sometimes we need to undo the changes that we've made. There are various ways to undo our changes locally or remotely (depends on what we need), but we must carefully use these commands to avoid unwanted deletions.t
+
+Then we just need to specify the hash code next to our commit that we would like to undo.
+
+**Syntax:**
+```
+git revert <hash_code>
+````
