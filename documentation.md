@@ -213,7 +213,7 @@ Git Remote command is used to connect your local repository to the remote server
 ```
 git remote add origin <URL>
 ````
-# **13. Git Origin Master:**
+# **14. Git Origin Master:**
 
 The term "git origin master" is used in the context of a remote repository. It is used to deal with the remote repository. The term origin comes from where repository original situated and master stands for the main branch.
 
@@ -249,7 +249,7 @@ Git push origin master
 ```   
 Git pull origin master
 ```
-# **14. Git Branch Command**
+# **15. Git Branch Command**
 
 ![Git branch](https://res.cloudinary.com/practicaldev/image/fetch/s--Jc-acrrl--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/69payngupg75rqgabwdg.png)
 
@@ -277,7 +277,7 @@ git branch or git branch --list
 git branch -d <branch-name>
 ```
 
-# **15. Git Checkout Command**
+# **16. Git Checkout Command**
 
 ![Git checkout](https://static.javatpoint.com/tutorial/git/images/git-checkout.png)
 
@@ -288,7 +288,7 @@ This is also one of the most used Git commands. To work in a branch, first you n
 ```
 git checkout <name-of-your-branch>
 ````
-# **16. Git Stash:**
+# **17. Git Stash:**
 
 
 ![Git Stash](https://static.javatpoint.com/tutorial/git/images/git-stash.png)
@@ -362,7 +362,7 @@ git stash clear
 ```
 
 
-# **17. Git Revert Command**
+# **18. Git Revert Command**
 
 Sometimes we need to undo the changes that we've made. There are various ways to undo our changes locally or remotely (depends on what we need), but we must carefully use these commands to avoid unwanted deletions.t
 
@@ -376,7 +376,7 @@ git revert <hash_code>
 
 ![Git revert and reset](https://64.media.tumblr.com/cde0683673e8d27c3db284e4c7965e08/tumblr_inline_mwzr3bz8fW1rk7mw6.png)
 
-# **18. Git Reset Command**
+# **19. Git Reset Command**
 
 The term reset stands for undoing changes. The git reset command is used to reset the changes. The git reset command has three core forms of invocation. These forms are as follows:
 
@@ -415,8 +415,16 @@ Generally, it is used to change the position of the Head. Let's understand how i
 ```
 git reset --soft  
 ````
+# **20. Git Clean**
 
-## **References :**
+Removes untracked files from the working directory. This is the logical counterpart to git reset, which (typically) only operates on tracked files.
+
+**Syntax:**
+```
+git clean -n  
+````
+
+## References :**
 ---
 
 - https://education.github.com/git-cheat-sheet-education.pdf
