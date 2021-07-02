@@ -153,3 +153,15 @@ This command is used to merge the specified branch history into the current bran
 ```
 git merge  <branch-name>
 ````
+
+# **12. Git Log Command**
+
+This command is used to check the commit history.
+
+![Git log](https://www.blog.nakulrajput.com/wp-content/uploads/2018/10/Git-Status.jpg)
+
+
+**Syntax:**
+```
+git log
+````
