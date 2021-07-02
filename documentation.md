@@ -104,3 +104,11 @@ This command pushes all the branches to the server repository.
 ```
 git push --all 
 ````
+# **9. Git Pull Command**
+
+Pull command is used to receive data from GitHub. It fetches and merges changes on the remote server to your working directory.
+
+**Syntax:**
+```
+git pull <URL>  
+````
