@@ -79,3 +79,28 @@ This command is used to make a copy of a repository from an existing URL. If I w
 ```
 git clone <URL> 
 ````
+# **8. Git Push Command**
+
+![Git push, pull, fetch](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1w88vBx7BiiMDBhKfu9Hfmvt63pWk5YyAaE7nT-b9bUet0Fn7cG0Ae13yGm0wIDQ30TU&usqp=CAU)
+
+
+It is used to upload local repository content to a remote repository. Pushing is an act of transfer commits from your local repository to a remote repo. It's the complement to git fetch, but whereas fetching imports commits to local branches on comparatively pushing exports commits to remote branches. 
+
+Remote branches are configured by using the git remote command. Pushing is capable of overwriting changes, and caution should be taken when pushing.
+
+**i. Git push origin master**
+
+This command sends the changes made on the master branch, to our remote repository.
+
+**Syntax:**
+```
+git push [variable name] master 
+````
+**ii. Git push -all**
+
+This command pushes all the branches to the server repository.
+
+**Syntax:**
+```
+git push --all 
+````
