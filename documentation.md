@@ -174,3 +174,39 @@ Git Remote command is used to connect your local repository to the remote server
 ```
 git remote add origin <URL>
 ````
+# **13. Git Origin Master:**
+
+The term "git origin master" is used in the context of a remote repository. It is used to deal with the remote repository. The term origin comes from where repository original situated and master stands for the main branch.
+
+### **Git Master:**
+
+Master is a naming convention for Git branch. It's a default branch of Git. After cloning a project from a remote server, the resulting local repository contains only a single local branch. This branch is called a "master" branch. It means that "master" is a repository's "default" branch.
+
+
+![Git master](https://static.javatpoint.com/tutorial/git/images/git-origin-master.png)
+
+
+In most cases, the master is referred to as the main branch. Master branch is considered as the final view of the repository.
+
+**Syntax:**
+```
+git remote add origin <URL>
+````
+
+### **Git Origin:**
+
+In Git, The term origin is referred to the remote repository where you want to publish your commits. The default remote repository is called origin, although you can work with several remotes having a different name at the same time. It is said as an alias of the system.
+
+
+![Git origin](https://static.javatpoint.com/tutorial/git/images/git-origin-master2.png)
+
+
+The origin is a short name for the remote repository that a project was initially being cloned. It is used in place of the original repository URL. Thus, it makes referencing much easier.
+
+Some commands in which the term origin and master are widely used are as follows:
+```
+Git push origin master
+``` 
+```   
+Git pull origin master
+```
