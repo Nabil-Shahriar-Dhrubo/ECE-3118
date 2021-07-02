@@ -142,3 +142,14 @@ git fetch -all
 ```
 git fetch origin  
 ```
+# **11. Git Merge Command**
+
+![Git merge](https://docs.microsoft.com/en-us/azure/devops/repos/git/media/regular_branch_merge.png?view=azure-devops)
+
+
+This command is used to merge the specified branch history into the current branch.
+
+**Syntax:**
+```
+git merge  <branch-name>
+````
