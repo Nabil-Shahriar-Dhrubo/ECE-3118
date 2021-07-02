@@ -30,6 +30,7 @@ Git is foundation of many services like **GitHub** and **GitLab**, but we can us
 
 ![Git and Github](https://joshcannons.com/img/logo/logo-github.jpg)
 
+
 # **GitHub**
 > ***GitHub** is a Git repository hosting service. It is a web-based service.*
 
@@ -37,7 +38,7 @@ GitHub is an online service to store code and push from the computer running the
 
 # **Git Commands:**
 
-Git supports many command-line tools and graphical user interfaces. The Git command line is the only place where we can run all the Git commands.
+Git supports many command-line tools and graphical user interfaces(GUI). The Git command line is the only place where we can run all the Git commands.
 
 # **1. Git Configuration:**
 
@@ -45,8 +46,10 @@ The Git config command is the first and necessary command used on the Git comman
 
 **Syntax**
 ```
-git config --global user.name "Nusrat-Jahan-ECE"  
-git config --global user.email "1710011@student.ruet.ac.bd"
+git config --global user.name "Nabil-Shahriar-Dhrubo" 
+```
+``` 
+git config --global user.email "1710002@student.ruet.ac.bd"
 ````
 # **2. To Check Git Version:**
 
@@ -187,7 +190,7 @@ This command is used to merge the specified branch history into the current bran
 
 **Syntax:**
 ```
-git merge  <branch-name>
+git merge <branch-name>
 ````
 
 # **12. Git Log Command**
@@ -214,7 +217,7 @@ git remote add origin <URL>
 
 The term "git origin master" is used in the context of a remote repository. It is used to deal with the remote repository. The term origin comes from where repository original situated and master stands for the main branch.
 
-### **Git Master:**
+### **i. Git Master:**
 
 Master is a naming convention for Git branch. It's a default branch of Git. After cloning a project from a remote server, the resulting local repository contains only a single local branch. This branch is called a "master" branch. It means that "master" is a repository's "default" branch.
 
@@ -229,7 +232,7 @@ In most cases, the master is referred to as the main branch. Master branch is co
 git remote add origin <URL>
 ````
 
-### **Git Origin:**
+### **ii. Git Origin:**
 
 In Git, The term origin is referred to the remote repository where you want to publish your commits. The default remote repository is called origin, although you can work with several remotes having a different name at the same time. It is said as an alias of the system.
 
@@ -330,7 +333,7 @@ We can track the stashes and their changes. To see the changes in the file befor
 git stash show
 ````
 
-**vi. Git Stash Pop (Reapplying Stashed Changes):**
+**vi. Git Stash Pop:**
 
 The git stash pop command is quite similar to git stash apply. The main difference between both of these commands is stash pop command that deletes the stash from the stack after it is applied.
 ```
@@ -345,19 +348,19 @@ The only way to revert it is if you do not close the terminal after deleting the
 ```
 git stash drop  
 ```
-
-**viii. Git Stash Clear:**
-
-The git stash clear command allows deleting all the available stashes at once. To delete all the available stashes, operate below command: 
-```
-git stash clear
-```
-**ix. Git Stash Branch:**
+**viii. Git Stash Branch:**
 
 The git stash branch command allows the user to stash work on a separate branch to avoid conflicts. The syntax for this branch is as follows:
 ```
 git stash branch <Branch Name>  
 ```
+**ix. Git Stash Clear:**
+
+The git stash clear command allows deleting all the available stashes at once. To delete all the available stashes, operate below command: 
+```
+git stash clear
+```
+
 
 # **17. Git Revert Command**
 
