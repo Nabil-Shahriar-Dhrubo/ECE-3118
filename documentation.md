@@ -1,7 +1,43 @@
-Documentation on Git Commands
+# **Documentation on Git Commands**
 
-Submitted By:
-Nabil Shahriar Dhrubo
+### Course No.: ECE 3118
+### Course Name: Software Engineering and Information System Design Sessional
+
+**Submitted to:**</br>
+---
+Rakibul Hassan</br>
+Lecturer</br>
+Department of Electrical and Computer Engineering</br>
+RUET</br>
+
+
+**Submitted by:**</br>
+---
+Nabil Shahriar Dhrubo</br>
+Roll: 1710002</br>
+Department of Electrical and Computer Engineering</br>
+RUET</br>
+
+---
+
+# **Git**
+
+> ***Git** is a distributed version control tool that can manage a programmer's source code history.*
+
+ It is designed to handle minor to major projects with high speed and efficiency. It is developed to co-ordinate the work among the developers. The version control allows us to track and work together with our team members at the same workspace.
+
+Git is foundation of many services like **GitHub** and **GitLab**, but we can use Git without using any other Git services. Git can be used privately and publicly.
+
+![Git and Github](https://joshcannons.com/img/logo/logo-github.jpg)
+
+# **GitHub**
+> ***GitHub** is a Git repository hosting service. It is a web-based service.*
+
+GitHub is an online service to store code and push from the computer running the Git tool. GitHub focused on centralized source code hosting.
+
+# **Git Commands:**
+
+Git supports many command-line tools and graphical user interfaces. The Git command line is the only place where we can run all the Git commands.
 
 # **1. Git Configuration:**
 
