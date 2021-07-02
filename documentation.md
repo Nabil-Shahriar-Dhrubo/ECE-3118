@@ -325,9 +325,6 @@ git stash branch <Branch Name>
 
 # **17. Git Revert Command**
 
-
-![Git revert](https://64.media.tumblr.com/cde0683673e8d27c3db284e4c7965e08/tumblr_inline_mwzr3bz8fW1rk7mw6.png)
-
 Sometimes we need to undo the changes that we've made. There are various ways to undo our changes locally or remotely (depends on what we need), but we must carefully use these commands to avoid unwanted deletions.t
 
 Then we just need to specify the hash code next to our commit that we would like to undo.
@@ -335,4 +332,47 @@ Then we just need to specify the hash code next to our commit that we would like
 **Syntax:**
 ```
 git revert <hash_code>
+````
+
+
+![Git revert and reset](https://64.media.tumblr.com/cde0683673e8d27c3db284e4c7965e08/tumblr_inline_mwzr3bz8fW1rk7mw6.png)
+
+# **18. Git Reset Command**
+
+The term reset stands for undoing changes. The git reset command is used to reset the changes. The git reset command has three core forms of invocation. These forms are as follows:
+
+
+- Hard
+- Mixed
+- Soft (Head)
+
+### **i. Git Reset Hard:**
+
+It will first move the Head and update the index with the contents of the commits. The --hard option changes the Commit History, and ref pointers are updated to the specified commit. 
+
+Then, the Staging Index and Working Directory need to reset to match that of the specified commit. Any previously pending commits to the Staging Index and the Working Directory gets reset to match Commit Tree. It means any awaiting work will be lost.
+
+**Syntax:**
+```
+git reset --hard 
+````
+### **ii. Git Reset Mixed:**
+
+A mixed option is a default option of the git reset command. If we would not pass any argument, then the git reset command considered as --mixed as default option. 
+
+A mixed option updates the ref pointers. The staging area also reset to the state of a specified commit. The undone changes transferred to the working directory.
+
+**Syntax:**
+```
+git reset --mixed 
+````
+### **iii. Git Reset Head (Git Reset Soft):**
+
+The soft option does not touch the index file or working tree at all, but it resets the Head as all options do. When the soft mode runs, the refs pointers updated, and the resets stop there. It will act as git amend command. It is not an authoritative command. Sometimes developers considered it as a waste of time.
+
+Generally, it is used to change the position of the Head. Let's understand how it will change the position of the Head. It will use as:
+
+**Syntax:**
+```
+git reset --soft  
 ````
