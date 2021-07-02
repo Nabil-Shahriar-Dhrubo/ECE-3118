@@ -165,3 +165,12 @@ This command is used to check the commit history.
 ```
 git log
 ````
+# **13. Git Remote Command**
+
+Git Remote command is used to connect your local repository to the remote server. This command allows you to create, view, and delete connections to other repositories. These connections are more like bookmarks rather than direct links into other repositories. This command doesn't provide real-time access to repositories.
+
+
+**Syntax:**
+```
+git remote add origin <URL>
+````
