@@ -376,3 +376,11 @@ Generally, it is used to change the position of the Head. Let's understand how i
 ```
 git reset --soft  
 ````
+
+## **References :**
+---
+
+- https://education.github.com/git-cheat-sheet-education.pdf
+
+- https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+
